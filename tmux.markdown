@@ -1,7 +1,7 @@
 tmux
 ====
 
-| description | short version | long version |
+| description | key binding | full command |
 | ----------- | ------------- | ------------ |
 | rename session | &lt;C-b&gt; $ | &lt;C-b&gt; :rename-session [-t current-name] [new-name] |
 | detach current session | &lt;C-b&gt; d | &lt;C-b&gt; :detach |
