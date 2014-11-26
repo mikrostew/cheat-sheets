@@ -1,17 +1,60 @@
 # tmux
 
-## command line
+## sessions
 
-| description | command |
-|:----------- |:------- |
-| show sessions | tmux ls |
+### list sessions
 
-## within tmux
+    $ tmux list-sessions
+           ls
 
-| description | key binding | full command |
-|:----------- |:------------- |:------------ |
-| rename session | &lt;C-b&gt; $ | &lt;C-b&gt; :rename-session [-t current-name] [new-name] |
-| detach current session | &lt;C-b&gt; d | &lt;C-b&gt; :detach |
-| detach other session | &lt;C-b&gt; D | &lt;C-b&gt; :detach -t target-client |
-| select session | &lt;C-b&gt; s | |
+### new session
+
+    $ tmux new-session [-s session-name]
+           new
+
+### attach session
+
+    $ tmux attach-session [-t target-session]
+           attach
+           at
+           a
+
+key bindings:
+
+    <C-b> s     # interactively select session
+
+### rename session
+
+    $ tmux rename-session [-t target-session] new-name
+           rename
+
+key bindings:
+
+    <C-b> $     # interactive rename
+
+### detach client
+
+    $ tmux detach-client [-t target-client]
+           detach
+
+key bindings:
+
+    <C-b> d     # detach current client
+    <C-b> D     # detach other client
+
+### kill session
+
+    $ tmux kill-session [-t target-session]
+
+
+## key bindings
+
+### list bindings
+
+    $ tmux list-keys
+           lsk
+
+key bindings:
+
+    <C-b> ?     # list key bindings
 
