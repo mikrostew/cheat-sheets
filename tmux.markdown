@@ -1,14 +1,13 @@
-tmux
-====
+# tmux
 
-command line
-=
+## command line
+
 | description | command |
 |:----------- |:------- |
 | show sessions | tmux ls |
 
-within tmux
-=
+## within tmux
+
 | description | key binding | full command |
 |:----------- |:------------- |:------------ |
 | rename session | &lt;C-b&gt; $ | &lt;C-b&gt; :rename-session [-t current-name] [new-name] |
