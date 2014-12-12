@@ -51,8 +51,10 @@ key bindings:
 
 ### list bindings
 
-    $ tmux list-keys
+    $ tmux list-keys [-t key-table]
            lsk
+
+`key-table` is one of: `vi-edit`, `emacs-edit`, `vi-choice`, `emacs-choice`, `vi-copy`, or `emacs-copy`
 
 key bindings:
 
