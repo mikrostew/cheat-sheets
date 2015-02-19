@@ -6,17 +6,19 @@ http://www.bigsmoke.us/readline/shortcuts
 
 ## moving
 
-    <C-a>   move to start of line
-    <C-e>   move to end of line
+    <Ctrl-a>            move to start of line
+    <Ctrl-e>            move to end of line
+    <Alt-f> / <Esc-f>   move forward one word
+    <Alt-b> / <Esc-b>   move backward one word
 
 ## cut/copy/paste
 
-    <C-w>   delete from cursor back one word
+    <Ctrl-w>            delete from cursor back one word
 
 ## undo
 
-    <C-_>   undo the last command
+    <Ctrl-_>            undo the last command
 
 ## command control
 
-    <C-l>   clear the screen and reprint the current line
+    <Ctrl-l>            clear the screen and reprint the current line
