@@ -60,3 +60,19 @@ key bindings:
 
     <C-b> ?     # list key bindings
 
+## panes
+
+### splits
+
+    <C-b> %     # vertical split
+    <C-b> "     # horizontal split
+
+### layout
+
+    :select-layout
+    <C-b> {space}   # cycle through available layouts
+    <C-b> <M-1>     # even-horizonal layout
+    <C-b> <M-2>     # even-vertical layout
+    <C-b> <M-3>     # main-horizontal layout
+    <C-b> <M-4>     # main-vertical layout
+    <C-b> <M-5>     # tiled layout
