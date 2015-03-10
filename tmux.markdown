@@ -76,3 +76,14 @@ key bindings:
     <C-b> <M-3>     # main-horizontal layout
     <C-b> <M-4>     # main-vertical layout
     <C-b> <M-5>     # tiled layout
+
+### break pane into new window
+
+    $ tmux break-pane [-t target-pane]
+           breakp
+
+### join pane to window
+
+    $ tmux join-pane [-s src-pane] [-t dst-pane]
+           joinp
+
