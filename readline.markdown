@@ -3,6 +3,7 @@
 Useful pages:
 http://www.skorks.com/2009/09/bash-shortcuts-for-maximum-productivity/
 http://www.bigsmoke.us/readline/shortcuts
+http://www.math.utah.edu/docs/info/features_7.html
 
 ## moving
 
@@ -13,7 +14,8 @@ http://www.bigsmoke.us/readline/shortcuts
 
 ## cut/copy/paste
 
-    <Ctrl-w>            delete from cursor back one word
+    <Ctrl-w>            cut from cursor back one word
+    <Ctrl-k>            cut from cursor to end of line
 
 ## undo
 
