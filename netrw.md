@@ -1,11 +1,18 @@
 # netrw (in vim)
 
+See `:help netrw-quickmap` for reference to all of these commands.
+
 ### working with files and directories
 
     %     # create file
     d     # create directory
     D     # delete file or directory
     R     # rename/move file
+
+    mt    # current browsing directory becomes markfile target
+    mf    # mark a file
+    mc    # copy marked files to marked-file target directory
+    
 
 ### navigation
 
@@ -25,4 +32,6 @@
 
 ### additions from the vim-vinegar plugin
 
+    .     # pre-populate file at the end of a : command line
+    !     # pre-populate file at the end of a ! command line
     y.    # yank an absolute path to the file under the cursor
